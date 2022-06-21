@@ -88,7 +88,7 @@ Attempts to load all yaml files to verify syntax.
     portability to other yaml implementations.
     Implies `--allow-multiple-documents`.
 
-#### `debug-statements`
+#### `debug-statements but only if the file is configured properly`
 Check for debugger imports and py37+ `breakpoint()` calls in python source.
 
 #### `destroyed-symlinks`
